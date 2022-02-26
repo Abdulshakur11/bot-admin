@@ -7,12 +7,12 @@ function App() {
 	const [data, setData] = useState();
 
 	useEffect(() => {
-		fetch('http://localhost:9000/api/v1')
+		fetch('https://internationbot.herokuapp.com/api/v1')
 			.then(res => res.json())
 			.then(data => setData(data));
 	}, [])
 
-
+console.log(data);
 
 	return (
 		<>
