@@ -30,9 +30,9 @@ function App() {
 						{
 							data && data.map((e, i) => (
 								<tr key={i}>
-									<td data-label="Kursi">{e.name}</td>
-									<td data-label="Telefon raqami"><a href={`tel:${e.phoneNumber}`}>{e.phoneNumber}</a></td>
-									<td data-label="Ismi">{e.course}</td>
+									<td data-label="Kursi">{e.student_name}</td>
+									<td data-label="Telefon raqami"><a href={`tel:${e.phonenumber}`}>{e.phonenumber}</a></td>
+									<td data-label="Ismi">{e.course_name}</td>
 								</tr>
 							))
 						}
