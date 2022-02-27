@@ -1,4 +1,5 @@
 table {
+	position: relative;
 	border: 1px solid #ccc;
 	border-collapse: collapse;
 	margin: 0;
@@ -20,7 +21,7 @@ table thead tr {
 table tr {
 	background-color: #f8f8f8;
 	border: 1px solid #ddd;
-	padding: 0.35em;
+	padding: 20px;
 }
 
 table th,
@@ -97,4 +98,14 @@ body {
 	max-width: 1250px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.title {
+	text-align: center;
+}
+
+.delete-btn {
+	position: absolute;
+	right: 10px;
+	/* height: 20px; */
 }
