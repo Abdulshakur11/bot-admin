@@ -1,7 +1,6 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 
-// Hello world
 function App() {
 
 	const [data, setData] = useState();
@@ -16,6 +15,8 @@ function App() {
 	// 	console.log(e.target.dataset.id);
 	// 	fetch(`http://localhost:9000/api/v2?id=${e.target.dataset.id}`)
 	// }
+
+
 
 	return (
 		<>
